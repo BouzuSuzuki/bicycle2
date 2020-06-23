@@ -44,7 +44,7 @@ body,html {
 
 body {
   padding-top: 60px;
-  background-image: url(https://img.aucfree.com/423244725.1.jpg);
+  background-image: image-url("road.png");
   background-size: cover;
   background-position: center center;
   height: auto;
@@ -102,13 +102,16 @@ a {
     text-align: center;
     border-radius: 3px;
     display: inline-block;
+    box-shadow:3px 5px blue;
   &:hover {
     border-color: lighten($accent, 15%);
     color: lighten($accent, 15%);
   }
-}
-
-h1,h2,h3,h4,h5,h6 {
+  &:active {
+    box-shadow: none;
+    position: relative;
+    top: 6px;
+  }
 }
 
 .title {
