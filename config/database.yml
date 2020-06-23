@@ -47,8 +47,14 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+# production:
+#   <<: *default
+#   database: bicycle2_production
+#   username: bicycle2
+#   password: <%= ENV['BICYCLE2_DATABASE_PASSWORD'] %>
+
 production:
   <<: *default
-  database: bicycle2_production
-  username: bicycle2
-  password: <%= ENV['BICYCLE2_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
