@@ -1,10 +1,24 @@
 # README
 
-## Project Title
-My bicycle introduction
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Overview
-![Uploading Bicycle.png…]()
+Things you may want to cover:
 
-## Deployment
-Add additional notes about how to deploy this on a live system
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
