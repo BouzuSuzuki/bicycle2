@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##　title
+My bicycle introduction
 
-Things you may want to cover:
+## Overview
+![Bicycle](https://user-images.githubusercontent.com/65278048/85391400-140e9800-b585-11ea-9a93-753e815d0ee1.jpg)
 
-* Ruby version
+## What can i do
+You can introduce your bicycle to others
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Deployment
