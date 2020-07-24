@@ -44,6 +44,7 @@ group :development, :test do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
+  gem 'sqlite3'
 end
 
 group :development do
@@ -78,3 +79,7 @@ gem 'kaminari'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'carrierwave'
+
+group :production do
+  gem 'pg'
+end
