@@ -15,8 +15,8 @@ default: &default
   pool: 5
   username: root
   password:
-  socket: /tmp/mysql.sock
-
+  socket: <%= ENV['MYSQL_SOCKET'] || '/tmp/mysql.sock' %>
+  
 development:
   <<: *default
   database: bicycle2_development
@@ -50,6 +50,4 @@ test:
 production:
   <<: *default
   database: bicycle2_production
-  username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  socket: /var/lib/mysql/mysql.sock
