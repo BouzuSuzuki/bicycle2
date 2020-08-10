@@ -49,5 +49,5 @@ test:
 #
 production:
   <<: *default
-  database: bicycle2_production
+  database: bicycle2_production_2
   password: <%= ENV['DATABASE_PASSWORD'] %>
