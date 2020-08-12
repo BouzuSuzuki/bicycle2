@@ -39,9 +39,14 @@ testtest
 
 
 ## 使用技術(開発環境)
-Ruby
+Ruby/Ruby on Rails
 HTML
 CSS
+MySQL
+Github
+AWS
+Visual Studio Code
+S3
 
 ## 課題や今後実装したい機能
 画像の複数枚投稿
